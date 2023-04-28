@@ -1,0 +1,4 @@
+Strategy DP comes under the behaviour Design Pattern.
+Behavior design pattern talks about the internal implementation of a particular DP - strategy.
+So basically the internal impl differs based on the strategy we choose. ex: myntra payment gateway(cash on delivery, UPI, credit/debit card etc.) / google maps (By Bike, By Car, By walk)
+In Strategy design pattern, we create objects which represent various strategies. And which strategy will get executed, depends on the user input during runtime.

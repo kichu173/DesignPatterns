@@ -1,6 +1,6 @@
 package FactoryDesignPatterExample;
 
-public class WindowsOperatingSystem extends  OperatingSystem{
+public class WindowsOperatingSystem extends OperatingSystem {
     public WindowsOperatingSystem(String version, String architecture) {
         super(version, architecture);
     }

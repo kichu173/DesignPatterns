@@ -1,0 +1,10 @@
+Example is YouTube subscription model is built based on the observer design pattern.
+Pull method -> when there is no subscribe button then, everytime in my channel I upload a new video, my subscribers should come to my channel everytime to see if any new video is available.
+To overcome this problem, YouTube(Subject) came up with subscribe button and everytime when a user(Observer) subscribes to my channel YouTube will create mapping with my channel and userId to the db and push that video to subscribers notifications.
+Que:: Design a subscriber model for the YouTube.
+
+Observer pattern is one of the most important concepts of design pattern, that is used to establish a one-to-many relationship between objects such that, if one object is modified, its dependent objects gets notified automatically.
+In observer pattern, the object that watch on the state of another object are called "Observer" and the object that is being watched is called "Subject".
+
+Why and when should we use Observer Pattern ?
+You should consider using this pattern in your application when multiple objects are dependent on the state of one object as it provides a neat and well tested design for the same.
